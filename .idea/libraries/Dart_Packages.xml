@@ -72,6 +72,13 @@
             </list>
           </value>
         </entry>
+        <entry key="force_type">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/force_type-1.0.6/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="frontend_server_client">
           <value>
             <list>
@@ -344,6 +351,7 @@
       <root url="file://$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/coverage-1.6.3/lib" />
       <root url="file://$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/crypto-3.0.3/lib" />
       <root url="file://$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/file-7.0.0/lib" />
+      <root url="file://$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/force_type-1.0.6/lib" />
       <root url="file://$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/frontend_server_client-3.2.0/lib" />
       <root url="file://$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/glob-2.1.2/lib" />
       <root url="file://$USER_HOME$/.puro/shared/pub_cache/hosted/pub.dev/http_multi_server-3.2.1/lib" />

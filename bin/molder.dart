@@ -1,4 +1,6 @@
 import 'dart:io';
+import 'package:force_type/force_type.dart';
+import 'package:molder/src/string_case_extensions.dart';
 import 'package:mustache_template/mustache_template.dart';
 
 void main() {
@@ -17,7 +19,7 @@ void main() {
       .map((field) => {
             'type': field['type'],
             'name': field['name'],
-            'sep': (field == (data['fields'] as List).last) ? '' : ',',
+            'sep': (field == (data['fields'] as List).last) ? '' : ', ',
           })
       .toList();
 
@@ -30,7 +32,8 @@ void main() {
     outputDirectory.createSync();
   }
 
-  final outputFile = File('output/generated_code.dart');
+  final outputFile =
+      File('output/${forceString(data['className']).snakeCase}.dart');
   outputFile.writeAsStringSync(generatedCode);
 
   print('Code generation completed.');

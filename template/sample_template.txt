@@ -3,5 +3,5 @@ class {{className}} {
   final {{type}} {{name}};
 {{/fields}}
 
-  {{className}}({{#fields}}this.{{name}}{{#sep}}, {{/sep}}{{/fields}});
+  {{className}}({{#fields}}this.{{name}}{{sep}}{{/fields}});
 }

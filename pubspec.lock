@@ -81,6 +81,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.0"
+  force_type:
+    dependency: "direct main"
+    description:
+      name: force_type
+      sha256: "2e5d17663ea9b97de277ffac5114d3b5281959864122b24c3290dc466fecf4c9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.6"
   frontend_server_client:
     dependency: transitive
     description:
