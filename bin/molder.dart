@@ -17,9 +17,7 @@ void main() {
       .map((field) => {
             'type': field['type'],
             'name': field['name'],
-            'sep': (field != null && field != (data['fields'] as List).last)
-                ? ','
-                : '',
+            'sep': (field == (data['fields'] as List).last) ? '' : ',',
           })
       .toList();
 
