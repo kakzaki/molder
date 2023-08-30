@@ -31,6 +31,3 @@ Contributions are welcome! If you encounter any issues or have suggestions, feel
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Remember to replace `template.txt` with the actual name of your template file and modify any other parts of the README to match your package's structure and details.
