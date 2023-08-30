@@ -1,0 +1,7 @@
+class {{className}} {
+{{#fields}}
+  final {{type}} {{name}};
+{{/fields}}
+
+  {{className}}({{#fields}}this.{{name}}{{#sep}}, {{/sep}}{{/fields}});
+}
