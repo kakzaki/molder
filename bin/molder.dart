@@ -12,7 +12,7 @@ void main() {
     ],
   };
 
-  final templateFile = File('template/sample_template.txt');
+  final templateFile = File('template/sample_template.mold');
   final templateContent = templateFile.readAsStringSync();
 
   final fieldsList = (data['fields'] as List<Map<String, dynamic>>)
