@@ -1,5 +1,5 @@
 name: molder
-description: Molder is a versatile code generation toolkit that empowers developers to effortlessly shape and mold their code. Craft elegant solutions with ease by generating boilerplate code, data models, and more using customizable templates. Embrace efficiency and creativity with Molder as your trusted code-molding companion..
+description: (Experimental) Molder is a versatile code generation toolkit that empowers developers to effortlessly shape and mold their code. Craft elegant solutions with ease by generating boilerplate code, data models, and more using customizable templates. Embrace efficiency and creativity with Molder as your trusted code-molding companion..
 version: 0.0.1
 homepage: https://kakzaki.dev
 
@@ -17,4 +17,4 @@ dev_dependencies:
   test: ^1.21.0
 
 executables:
-  mass_refactor:
+  molder:

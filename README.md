@@ -6,7 +6,7 @@ Molder is a powerful code generation toolkit that simplifies the process of crea
 
 - Generate boilerplate code with ease.
 - Create customizable data models effortlessly.
-- Use flexible Mustache templates for code generation.
+- Use flexible Molder templates for code generation.
 - Streamline your development workflow with automated code generation.
 - Embrace efficiency and maintainability in your projects.
 
@@ -20,7 +20,7 @@ dart pub global activate molder
 
 ## Usage
 
-1. Create a template file (e.g., `template.txt`) with Mustache placeholders.
+1. Create a template file (e.g., `sample_template.mold`) with Molder placeholders.
 2. Use Molder to generate code based on the template and your data.
 
 
